@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		828693816ECCB2672587EBC6 /* Pods_Appodeal_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77686A31E628ABECC24AA5D6 /* Pods_Appodeal_iOS.framework */; };
+		D9AD9173DA00D7F815BD0461 /* Pods_Appodeal_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55E7A4B45749E9A3EEA0FE3E /* Pods_Appodeal_iOS.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,30 +31,37 @@
 		0F075B0F2D9DCF9A00C9A91F /* Appodeal-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Appodeal-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F075B1F2D9DCF9B00C9A91F /* Appodeal-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Appodeal-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F075B292D9DCF9B00C9A91F /* Appodeal-iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Appodeal-iOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5BDFB18FF2D97B75EBC13C86 /* Pods-Appodeal-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Appodeal-iOS.debug.xcconfig"; path = "Target Support Files/Pods-Appodeal-iOS/Pods-Appodeal-iOS.debug.xcconfig"; sourceTree = "<group>"; };
-		77686A31E628ABECC24AA5D6 /* Pods_Appodeal_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Appodeal_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7CDBB8F0FD1CAC8D9C663222 /* Pods-Appodeal-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Appodeal-iOS.release.xcconfig"; path = "Target Support Files/Pods-Appodeal-iOS/Pods-Appodeal-iOS.release.xcconfig"; sourceTree = "<group>"; };
+		55E7A4B45749E9A3EEA0FE3E /* Pods_Appodeal_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Appodeal_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1F636F98732E8C1D854EB74 /* Pods-Appodeal-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Appodeal-iOS.release.xcconfig"; path = "Target Support Files/Pods-Appodeal-iOS/Pods-Appodeal-iOS.release.xcconfig"; sourceTree = "<group>"; };
+		FFC9381F0D733A8118A78E99 /* Pods-Appodeal-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Appodeal-iOS.debug.xcconfig"; path = "Target Support Files/Pods-Appodeal-iOS/Pods-Appodeal-iOS.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		0F3182952D9DE8840026C6B8 /* Exceptions for "Appodeal-iOS" folder in "Appodeal-iOS" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 0F075B0E2D9DCF9A00C9A91F /* Appodeal-iOS */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		0F075B112D9DCF9A00C9A91F /* Appodeal-iOS */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
+				0F3182952D9DE8840026C6B8 /* Exceptions for "Appodeal-iOS" folder in "Appodeal-iOS" target */,
 			);
 			path = "Appodeal-iOS";
 			sourceTree = "<group>";
 		};
 		0F075B222D9DCF9B00C9A91F /* Appodeal-iOSTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-			);
 			path = "Appodeal-iOSTests";
 			sourceTree = "<group>";
 		};
 		0F075B2C2D9DCF9B00C9A91F /* Appodeal-iOSUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-			);
 			path = "Appodeal-iOSUITests";
 			sourceTree = "<group>";
 		};
@@ -65,7 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				828693816ECCB2672587EBC6 /* Pods_Appodeal_iOS.framework in Frameworks */,
+				D9AD9173DA00D7F815BD0461 /* Pods_Appodeal_iOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -93,8 +100,8 @@
 				0F075B222D9DCF9B00C9A91F /* Appodeal-iOSTests */,
 				0F075B2C2D9DCF9B00C9A91F /* Appodeal-iOSUITests */,
 				0F075B102D9DCF9A00C9A91F /* Products */,
-				9BBFE443FBC0C2B69B38E84A /* Pods */,
-				75F68948A20131C78AF51101 /* Frameworks */,
+				E6E65738F4836FC1D14DB026 /* Pods */,
+				A5D77960C9D7C5A9E95DECAA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -108,21 +115,20 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		75F68948A20131C78AF51101 /* Frameworks */ = {
+		A5D77960C9D7C5A9E95DECAA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				77686A31E628ABECC24AA5D6 /* Pods_Appodeal_iOS.framework */,
+				55E7A4B45749E9A3EEA0FE3E /* Pods_Appodeal_iOS.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		9BBFE443FBC0C2B69B38E84A /* Pods */ = {
+		E6E65738F4836FC1D14DB026 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				5BDFB18FF2D97B75EBC13C86 /* Pods-Appodeal-iOS.debug.xcconfig */,
-				7CDBB8F0FD1CAC8D9C663222 /* Pods-Appodeal-iOS.release.xcconfig */,
+				FFC9381F0D733A8118A78E99 /* Pods-Appodeal-iOS.debug.xcconfig */,
+				A1F636F98732E8C1D854EB74 /* Pods-Appodeal-iOS.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -133,12 +139,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0F075B332D9DCF9B00C9A91F /* Build configuration list for PBXNativeTarget "Appodeal-iOS" */;
 			buildPhases = (
-				8943858B3151E270308487E8 /* [CP] Check Pods Manifest.lock */,
+				DF7CD44D22E35FD8C3351D91 /* [CP] Check Pods Manifest.lock */,
 				0F075B0B2D9DCF9A00C9A91F /* Sources */,
 				0F075B0C2D9DCF9A00C9A91F /* Frameworks */,
 				0F075B0D2D9DCF9A00C9A91F /* Resources */,
-				896B92620C195570AE57EA7F /* [CP] Embed Pods Frameworks */,
-				7444CFFFBC963C1EA9F61B44 /* [CP] Copy Pods Resources */,
+				3C6EFED1A73E0D273B0BAB24 /* [CP] Embed Pods Frameworks */,
+				FAE1B8BCFDD8C25C26EFA563 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -263,24 +269,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		7444CFFFBC963C1EA9F61B44 /* [CP] Copy Pods Resources */ = {
+		3C6EFED1A73E0D273B0BAB24 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Appodeal-iOS/Pods-Appodeal-iOS-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-Appodeal-iOS/Pods-Appodeal-iOS-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			name = "[CP] Copy Pods Resources";
+			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Appodeal-iOS/Pods-Appodeal-iOS-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-Appodeal-iOS/Pods-Appodeal-iOS-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Appodeal-iOS/Pods-Appodeal-iOS-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Appodeal-iOS/Pods-Appodeal-iOS-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		8943858B3151E270308487E8 /* [CP] Check Pods Manifest.lock */ = {
+		DF7CD44D22E35FD8C3351D91 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -302,21 +308,21 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		896B92620C195570AE57EA7F /* [CP] Embed Pods Frameworks */ = {
+		FAE1B8BCFDD8C25C26EFA563 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Appodeal-iOS/Pods-Appodeal-iOS-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-Appodeal-iOS/Pods-Appodeal-iOS-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			name = "[CP] Embed Pods Frameworks";
+			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Appodeal-iOS/Pods-Appodeal-iOS-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-Appodeal-iOS/Pods-Appodeal-iOS-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Appodeal-iOS/Pods-Appodeal-iOS-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Appodeal-iOS/Pods-Appodeal-iOS-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -480,7 +486,7 @@
 		};
 		0F075B342D9DCF9B00C9A91F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5BDFB18FF2D97B75EBC13C86 /* Pods-Appodeal-iOS.debug.xcconfig */;
+			baseConfigurationReference = FFC9381F0D733A8118A78E99 /* Pods-Appodeal-iOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -489,7 +495,9 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Appodeal-iOS/Preview Content\"";
 				DEVELOPMENT_TEAM = ZNU99CG588;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Appodeal-iOS/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -510,7 +518,7 @@
 		};
 		0F075B352D9DCF9B00C9A91F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7CDBB8F0FD1CAC8D9C663222 /* Pods-Appodeal-iOS.release.xcconfig */;
+			baseConfigurationReference = A1F636F98732E8C1D854EB74 /* Pods-Appodeal-iOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -519,7 +527,9 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Appodeal-iOS/Preview Content\"";
 				DEVELOPMENT_TEAM = ZNU99CG588;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Appodeal-iOS/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

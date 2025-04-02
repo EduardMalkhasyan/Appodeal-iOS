@@ -12,20 +12,12 @@ struct ContentView: View {
 
     var body: some View {
         VStack(spacing: 20) {
-            Button("Initialize Appodeal") {
-                // Enable test mode in Appodeal initialization
-                Appodeal.initialize(withApiKey: "97e8e865870a2f0b8c32082332c5c423350be3ae4fd87e26", types: [.interstitial, .banner, .rewardedVideo])
-                
-                Appodeal.setTestingEnabled(true) 
-            }
-            .padding()
-            .background(Color.blue)
-            .foregroundColor(.white)
-            .cornerRadius(10)
-            
             Button("Show Interstitial Ad") {
+                // Ensure the interstitial ad is ready and then show it
                 if Appodeal.isReadyForShow(with: .interstitial), let rootVC = rootViewController {
-                    Appodeal.showAd(AppodealShowStyle.interstitial, rootViewController: rootVC)
+                    Appodeal.showAd(.interstitial, rootViewController: rootVC)
+                } else {
+                    print("Interstitial Ad is not ready")
                 }
             }
             .padding()
@@ -34,8 +26,11 @@ struct ContentView: View {
             .cornerRadius(10)
             
             Button("Show Banner Ad") {
+                // Ensure the banner ad is ready and then show it
                 if let rootVC = rootViewController {
-                    Appodeal.showAd(AppodealShowStyle.bannerBottom, rootViewController: rootVC)
+                    Appodeal.showAd(.bannerBottom, rootViewController: rootVC)
+                } else {
+                    print("Banner Ad failed to load")
                 }
             }
             .padding()
@@ -44,8 +39,11 @@ struct ContentView: View {
             .cornerRadius(10)
             
             Button("Show Rewarded Ad") {
+                // Ensure the rewarded ad is ready and then show it
                 if Appodeal.isReadyForShow(with: .rewardedVideo), let rootVC = rootViewController {
-                    Appodeal.showAd(AppodealShowStyle.rewardedVideo, rootViewController: rootVC)
+                    Appodeal.showAd(.rewardedVideo, rootViewController: rootVC)
+                } else {
+                    print("Rewarded Video Ad is not ready")
                 }
             }
             .padding()

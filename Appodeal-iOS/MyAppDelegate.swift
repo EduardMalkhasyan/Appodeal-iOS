@@ -18,7 +18,7 @@ final class MyAppDelegate: UIResponder, UIApplicationDelegate, AppodealInitializ
         
         // Initialize Appodeal with the API Key and ad types
         Appodeal.initialize(
-            withApiKey: "97e8e865870a2f0b8c32082332c5c423350be3ae4fd87e26",
+            withApiKey: "a05a20335c7ebe5af82bd007139548cff952be2075d30a46",
             types: [.interstitial, .banner, .rewardedVideo]
         )
         

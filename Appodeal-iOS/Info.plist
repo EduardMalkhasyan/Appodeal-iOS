@@ -996,5 +996,7 @@
 			<string>zq492l623r.skadnetwork</string>
 		</dict>
 	</array>
+	<key>NSUserTrackingUsageDescription</key>
+	<string>This app uses tracking to provide personalized ads and improve user experience.</string>
 </dict>
 </plist>

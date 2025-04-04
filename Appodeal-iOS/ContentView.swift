@@ -2,7 +2,6 @@ import SwiftUI
 import Appodeal
 
 struct ContentView: View {
-    // Get the root view controller from the connected scenes
     var rootViewController: UIViewController? {
         if let windowScene = UIApplication.shared.connectedScenes.first as? UIWindowScene {
             return windowScene.windows.first?.rootViewController
@@ -13,7 +12,6 @@ struct ContentView: View {
     var body: some View {
         VStack(spacing: 20) {
             Button("Show Interstitial Ad") {
-                // Ensure the interstitial ad is ready and then show it
                 if Appodeal.isReadyForShow(with: .interstitial), let rootVC = rootViewController {
                     Appodeal.showAd(.interstitial, rootViewController: rootVC)
                 } else {
@@ -26,7 +24,6 @@ struct ContentView: View {
             .cornerRadius(10)
             
             Button("Show Banner Ad") {
-                // Ensure the banner ad is ready and then show it
                 if let rootVC = rootViewController {
                     Appodeal.showAd(.bannerBottom, rootViewController: rootVC)
                 } else {
@@ -39,7 +36,6 @@ struct ContentView: View {
             .cornerRadius(10)
             
             Button("Show Rewarded Ad") {
-                // Ensure the rewarded ad is ready and then show it
                 if Appodeal.isReadyForShow(with: .rewardedVideo), let rootVC = rootViewController {
                     Appodeal.showAd(.rewardedVideo, rootViewController: rootVC)
                 } else {
